@@ -1,0 +1,14 @@
+﻿<Window x:Class="OBSPadSpy2.PadConfigWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Title="PadSpy 2.0 - cBeta XBox360 ed." ResizeMode="NoResize" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight">
+    <Grid x:Name="mainGrid" HorizontalAlignment="Left" Height="270" VerticalAlignment="Top" Width="292">
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="207,238,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.347,1.364" Click="cancelButton_Click"/>
+        <Button x:Name="okButton" Content="OK" HorizontalAlignment="Left" Margin="127,238,0,0" VerticalAlignment="Top" Width="75" Click="okButton_Click"/>
+        <ListBox x:Name="PadBox" HorizontalAlignment="Left" Height="107" Margin="10,10,0,0" VerticalAlignment="Top" Width="272"/>
+        <TextBox x:Name="DebugText" HorizontalAlignment="Left" Height="111" Margin="10,122,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="272" IsReadOnly="True"/>
+    </Grid>
+</Window>
